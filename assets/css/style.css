@@ -186,6 +186,11 @@ body {
   #contact-form li {
     margin-bottom: 10px;
   }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
   
   label,
   input[type=text],
@@ -279,5 +284,10 @@ body {
 	    margin: 0 auto;
 	    max-width: 100%;
 	    height: auto;
+    }
+
+    .auth-image {
+      width: auto;
+      margin-bottom: 20px;
     }
   }
