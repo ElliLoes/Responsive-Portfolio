@@ -4,6 +4,7 @@ body {
     line-height: 34px;
     color: #777777;
     background: url("../images/background.png");
+    margin: 0;
   }
   
   * {
@@ -217,22 +218,35 @@ body {
   }
   
   @media only screen and (max-width: 980px) {
-    .main-section {
-      width: 70%;
-      margin-right: 20px;
+    
+  #main-container {
+    width: 650px; 
+    margin: 0 30px;
+  }       
+  
+  #masthead {
+    padding: 0 30px;
+  }
+    
+  }
 
+  @media only screen and (max-width: 768px) {
+  }
+
+  @media only screen and (max-width: 640px) { 
+
+    #logo {
+        display: block;
+        float: none;
+        width: 100%;
     }
 
-    nav {
-      overflow: hidden;
+    #main-container {
+      margin: 20px;
+      display: center;
     }
 
-    nav a {
-      float: left;
-      display: block;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
+    .work {
+      width: 100%;
     }
   }
