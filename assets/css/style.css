@@ -226,12 +226,14 @@ body {
     
   #main-container {
     width: 650px; 
-    margin: 0 30px;
+    margin: auto;
   }       
   
   #masthead {
     padding: 0 30px;
   }
+
+
     
   }
 
@@ -271,7 +273,6 @@ body {
       display: center;
       padding-top: 0;
       width: auto;
-
     }
 
     .work {
